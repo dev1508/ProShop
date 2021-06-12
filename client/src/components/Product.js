@@ -25,6 +25,7 @@ return (
             ${product.price}
         </Card.Text>
         </Card.Body>
+        
 
     </Card>
    

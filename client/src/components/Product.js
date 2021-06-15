@@ -7,11 +7,11 @@ const Product = ({product}) => {
 return (
    
     <Card className = "my-3 p-3 rounded">
-        <a href = "https://amzn.to/3xkpVGT">
+        <a href = "https://www.amazon.in/RK-Protection-Multi-Purpose-Gardening-Activities/dp/B0965VTSW2/ref=sr_1_2">
       <Card.Img src = {product.image} variant ='top'/>
       </a>
         <Card.Body>
-        <a href = {"https://amzn.to/3xkpVGT"}>
+        <a href = {"https://www.amazon.in/RK-Protection-Multi-Purpose-Gardening-Activities/dp/B0965VTSW2/ref=sr_1_2"}>
       <Card.Title as ="div">
           <strong>{product.name}</strong>
           </Card.Title>

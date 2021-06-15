@@ -24,7 +24,7 @@ const ProductCarousel = () => {
     <Carousel pause='hover' className='bg-dark'>
       {products.map((product) => (
         <Carousel.Item key={product._id}>
-          <a href = "https://amzn.to/3xkpVGT">
+          <a href = "https://www.amazon.in/RK-Protection-Multi-Purpose-Gardening-Activities/dp/B0965VTSW2/ref=sr_1_2">
             <Image src={product.image} alt={product.name} fluid />
             <Carousel.Caption className='carousel-caption'>
               <h2>

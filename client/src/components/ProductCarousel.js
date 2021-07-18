@@ -24,14 +24,14 @@ const ProductCarousel = () => {
     <Carousel pause='hover' className='bg-dark'>
       {products.map((product) => (
         <Carousel.Item key={product._id}>
-          <a href = "https://www.amazon.in/RK-Protection-Multi-Purpose-Gardening-Activities/dp/B0965VTSW2/ref=sr_1_2">
+         <Link to = {`/product/${product._id}`}>
             <Image src={product.image} alt={product.name} fluid />
             <Carousel.Caption className='carousel-caption'>
               <h2>
                 {product.name} (${product.price})
               </h2>
             </Carousel.Caption>
-          </a>
+          </Link>
         </Carousel.Item>
       ))}
     </Carousel>
